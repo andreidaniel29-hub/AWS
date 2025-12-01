@@ -1,4 +1,6 @@
-/* bienvenida.php */
+/* registro.php */
+
+@import url("registro.php");
 body {
     margin: 0;
     height: 100vh;
@@ -9,226 +11,7 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
-
-/* ---------- CONTENEDOR PRINCIPAL ---------- */
-.container {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 350px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-/* ---------- TITULOS Y TEXTO ---------- */
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-p {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-/* ---------- ENLACES ---------- */
-a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-
-
-/* ----------Login.php---------- */
-/* ---------- RESET BÁSICO ---------- */
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8b4bb9ff; /* morado */
-    font-family: Arial, sans-serif;
-    color: #fff;
-}
-
-/* ---------- CONTENEDOR PRINCIPAL ---------- */
-.container {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 350px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-.container.small {
-    width: 300px; /* usado para el login */
-}
-
-/* ---------- TITULOS Y TEXTO ---------- */
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-p {
-    margin-top: 15px;
-    font-size: 14px;
-}
-
-/* ---------- FORMULARIOS ---------- */
-label {
-    display: block;
-    margin: 10px 0 5px;
-    text-align: left;
-    color: #fff;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-/* ---------- BOTONES ---------- */
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #fff;
-    color: #8b4bb9ff;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: #e0d4f7;
-}
-
-/* ---------- ENLACES ---------- */
-a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* ---------- procesar registro---------- */
-/* ---------- RESET BÁSICO ---------- */
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8b4bb9ff; /* morado */
-    font-family: Arial, sans-serif;
-    color: #fff;
-}
-
-/* ---------- CONTENEDORES ---------- */
-.container {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 350px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-/* Estilo específico del contenedor de registro */
-.container.registro {
-    background-color: rgba(90, 104, 184, 0.1);
-}
-
-/* Para login que usa contenedor más pequeño */
-.container.small {
-    width: 300px;
-}
-
-/* ---------- TITULOS Y TEXTOS ---------- */
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-p {
-    margin-top: 15px;
-    font-size: 16px;
-}
-
-/* ---------- FORMULARIOS ---------- */
-label {
-    display: block;
-    margin: 10px 0 5px;
-    text-align: left;
-    color: #fff;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-/* ---------- BOTONES ---------- */
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #fff;
-    color: #8b4bb9ff;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: #e0d4f7;
-}
-
-/* ---------- ENLACES ---------- */
-a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* ---------- registro.php---------- */
-/* ---------- RESET BÁSICO ---------- */
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8b4bb9ff; /* morado */
-    font-family: Arial, sans-serif;
-    color: #fff;
-}
-
-/* ---------- CONTENEDORES ---------- */
+/*Contenedor*/
 .container {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 30px;
@@ -242,7 +25,7 @@ body {
     width: 300px;
 }
 
-/* ---------- TITULOS Y TEXTOS ---------- */
+/* titulos y textos  */
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
@@ -253,7 +36,7 @@ p {
     font-size: 14px;
 }
 
-/* ---------- FORMULARIOS ---------- */
+/* formularios */
 label {
     display: block;
     margin: 10px 0 5px;
@@ -269,7 +52,7 @@ input {
     margin-bottom: 15px;
 }
 
-/* ---------- BOTONES ---------- */
+/* botones */
 button {
     width: 100%;
     padding: 10px;
@@ -286,7 +69,7 @@ button:hover {
     background-color: #e0d4f7;
 }
 
-/* ---------- ENLACES ---------- */
+/* enlaces */
 a {
     color: #ffd700;
     text-decoration: none;
@@ -298,3 +81,228 @@ a:hover {
 }
 
 
+
+
+/* bienvenida.php */
+@import url("bienvenida.php");
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b4bb9ff; /* morado */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* titulos y textos */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* enlaces */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Login.php */
+/*  reset basico */
+@import url("login.php");
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b4bb9ff; /* morado */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.container.small {
+    width: 300px; /* usado para el login */
+}
+
+/* titulos y texto */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* formularios*/
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* botones */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #8b4bb9ff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e0d4f7;
+}
+
+/* enlaces */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*procesar registro */
+/* reset basico */
+@import url("procesar_registro.php");
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b4bb9ff; /* morado */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* contenedores */
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* estilo específico del contenedor de registro */
+.container.registro {
+    background-color: rgba(90, 104, 184, 0.1);
+}
+
+/* para login que usa contenedor más pequeño */
+.container.small {
+    width: 300px;
+}
+
+/* titulos y textos */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* formularios */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* botones */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #8b4bb9ff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e0d4f7;
+}
+
+/* enlaces */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
