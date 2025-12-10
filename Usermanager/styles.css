@@ -1,0 +1,148 @@
+/* index.php */
+/* parte del reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Contenedor principal */
+.container, .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+/* Botones */
+.btn, .btn-edit, .btn-delete {
+  padding: 8px 14px;
+  margin: 4px;
+  text-decoration: none;
+  border-radius: 4px;
+  font
+
+
+/* list.php */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; 
+  color: #333;
+  line-height: 1.6; 
+}
+
+/* Contenedor principal */
+.container,
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 20px;
+  color: #007BFF;
+  font-size: 2rem; 
+  text-align: center;
+}
+
+/* Botones */
+.btn,
+.btn-edit,
+.btn-delete {
+  display: inline-block; 
+  padding: 8px 14px;
+  margin: 4px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  cursor: pointer; 
+}
+
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-edit:hover {
+  background-color: #1e7e34;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #a71d2a;
+}
+
+/* Tabla para list.php */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
